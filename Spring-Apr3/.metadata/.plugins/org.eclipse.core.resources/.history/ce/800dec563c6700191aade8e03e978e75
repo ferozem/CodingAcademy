@@ -1,0 +1,17 @@
+package com.jpm.selenium.locators;
+
+import org.openqa.selenium.WebDriver;
+
+import com.jpm.selenium.util.ChromeUtil;
+
+public class TestLocators {
+
+	public static void main(String[] args) {
+		//load driver
+		WebDriver driver = ChromeUtil.getChromeDriver();
+		String url="";
+		driver.get(url);
+
+	}
+
+}

@@ -1,0 +1,26 @@
+package com.jpm.selenium.forms;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+import com.jpm.selenium.util.ChromeUtil;
+
+public class WorkingWithFroms {
+	public static void main(String[] args) throws InterruptedException {
+		WebDriver driver = ChromeUtil.getChromeDriver();
+		//open the webpage
+		driver.get("file:\\G:\\Feroze\\Programing\\Java\\JPMC Coding Academy\\Spring-Apr3\\11_SeleniumWebdriver\\src\\main\\java\\WorkingWithForms.html");
+
+		//maximize the browser window
+		driver.manage().window().maximize();
+		
+		driver.findElement(By.id("txtUserName")).sendKeys("JPM_Smita");
+		driver.findElement(By.className("Format")).sendKeys("jpm@123");
+		driver.findElement(By.cssSelector("input-Format1")).sendKeys("Smita");
+		driver.findElement(By.cssSelector("Input#txtLastName")).sendKeys("Kumar");
+		Thread.sleep(10000);
+		
+		
+	}
+
+}

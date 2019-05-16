@@ -1,0 +1,16 @@
+2019-04-04 12:48:19,927 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1376c05c: startup date [Thu Apr 04 12:48:19 IST 2019]; root of context hierarchy
+2019-04-04 12:48:19,978 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [aop.xml]
+2019-04-04 12:51:05,895 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1376c05c: startup date [Thu Apr 04 12:51:05 IST 2019]; root of context hierarchy
+2019-04-04 12:51:06,284 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [aop.xml]
+2019-04-04 13:01:30,447 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1376c05c: startup date [Thu Apr 04 13:01:30 IST 2019]; root of context hierarchy
+2019-04-04 13:01:30,495 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [aop.xml]
+2019-04-04 13:02:01,487 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1376c05c: startup date [Thu Apr 04 13:02:01 IST 2019]; root of context hierarchy
+2019-04-04 13:02:01,535 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [aop.xml]
+2019-04-04 13:02:47,304 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1376c05c: startup date [Thu Apr 04 13:02:47 IST 2019]; root of context hierarchy
+2019-04-04 13:02:47,368 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [aop.xml]
+2019-04-04 13:15:37,680 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1376c05c: startup date [Thu Apr 04 13:15:37 IST 2019]; root of context hierarchy
+2019-04-04 13:15:37,728 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [aop.xml]
+2019-04-04 13:16:34,485 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1376c05c: startup date [Thu Apr 04 13:16:34 IST 2019]; root of context hierarchy
+2019-04-04 13:16:34,536 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [aop.xml]
+2019-04-04 13:41:18,988 INFO [org.springframework.context.support.ClassPathXmlApplicationContext] - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1376c05c: startup date [Thu Apr 04 13:41:18 IST 2019]; root of context hierarchy
+2019-04-04 13:41:19,040 INFO [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] - Loading XML bean definitions from class path resource [aop.xml]

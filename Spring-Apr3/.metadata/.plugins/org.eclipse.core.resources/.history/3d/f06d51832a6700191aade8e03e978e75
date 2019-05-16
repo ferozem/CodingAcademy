@@ -1,0 +1,29 @@
+package com.jpm.selenium.driver_cmd;
+
+import org.openqa.selenium.WebDriver;
+
+import com.jpm.selenium.util.ChromeUtil;
+
+public class WebDriverCommands {
+
+	public static void main(String[] args) throws InterruptedException {
+		//we need instance of driver
+		WebDriver driver = ChromeUtil.getChromeDriver();
+		if(driver!=null){
+			// get -- to launch the website
+			String url = "http://www.synergetics-india.com/";
+			driver.get(url);
+			//get the title of the webpage
+			System.out.println("Title of the page is:" +driver.getTitle());
+			System.out.println("Current Url: " +driver.getCurrentUrl());
+			
+			
+		}else {
+			System.out.println("Driver not loaded");
+		}
+		Thread.sleep(1000);
+		driver.close();
+
+	}
+
+}

@@ -1,0 +1,40 @@
+package com.jpm.selenium.assignment_day1;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import com.jpm.selenium.util.ChromeUtil;
+
+public class AssignmentDay1 {
+
+	public static void main(String[] args) throws InterruptedException {
+		WebDriver driver = ChromeUtil.getChromeDriver();
+
+		String url = "http://demo.opencart.com/index.php?route=account/register";
+		driver.get(url);
+		driver.manage().window().maximize();
+		
+		driver.findElement(By.id("input-firstname")).sendKeys("Feroze");
+		driver.findElement(By.name("lastname")).sendKeys("Mohammad");
+		driver.findElement(By.name("email")).sendKeys("feroze@gmail");
+		driver.findElement(By.id("input-telephone")).sendKeys("99494949943");
+		driver.findElement(By.name("password")).sendKeys("12345");
+		driver.findElement(By.name("confirm")).sendKeys("12345");
+		
+		List<WebElement> radioElements = driver.findElements(By.name("newsletter"));
+		for(WebElement radio:radioElements){
+			String radioSelection = radio.getAttribute("value").toString();
+			if(radioSelection.equals("No")){
+				radio.click();
+			}
+			
+		}
+		
+		Thread.sleep(5000);
+		driver.close();
+	}
+
+}

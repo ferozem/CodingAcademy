@@ -1,0 +1,18 @@
+package com.jpm.selenium.driver_cmd;
+
+import com.jpm.selenium.util.ChromeUtil;
+
+public class WebDriverCommands {
+
+	public static void main(String[] args) {
+		//we need instance of driver
+		WebDriver driver = ChromeUtil.getChromeDriver();
+		if(driver!=null){
+			
+		}else {
+			System.out.println("Driver not loaded");
+		}
+
+	}
+
+}

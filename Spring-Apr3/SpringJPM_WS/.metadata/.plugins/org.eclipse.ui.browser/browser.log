@@ -1,0 +1,11 @@
+
+Apr 08, 2019 14:49:38.68 NEW SESSION
+Apr 08, 2019 14:49:38.68 [18408:6792:0408/144938.681:ERROR:component_installer.cc(327)] Failed to read manifest or verify installation for Signed Tree Heads (C:\Users\ASALAVALEKUM\AppData\Local\Google\Chrome\User Data\CertificateTransparency\1083).: The system cannot find the file specified. (0x2)
+Apr 08, 2019 14:50:24.76 [18408:15616:0408/145024.763:ERROR:browser_process_sub_thread.cc(209)] Waited 19 ms for network service
+Apr 08, 2019 15:04:19.87 [8208:15256:0408/150419.870:ERROR:browser_process_sub_thread.cc(209)] Waited 29 ms for network service
+Apr 08, 2019 18:12:30.17 [13848:9376:0408/181230.171:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Apr 08, 2019 18:13:06.02 [13848:9376:0408/181306.028:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Apr 08, 2019 18:13:49.48 [13848:9376:0408/181349.480:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Apr 08, 2019 18:15:36.69 [13848:9376:0408/181536.696:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Apr 08, 2019 18:19:24.37 [13848:9376:0408/181924.371:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.
+Apr 09, 2019 06:30:46.62 [13848:9376:0409/063044.508:ERROR:gcm_channel_status_request.cc(151)] GCM channel request failed.

@@ -1,0 +1,65 @@
+package com.jpm.selenium.locators;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import com.jpm.selenium.util.ChromeUtil;
+
+public class TestLocators {
+
+	public static void main(String[] args) throws InterruptedException {
+		//load driver
+		WebDriver driver = ChromeUtil.getChromeDriver();
+		String url="http://demo.opencart.com";
+		
+		driver.get(url);
+		Thread.sleep(5000);
+	
+		
+		WebElement searchBox = driver.findElement(By.name("search"));
+		searchBox.sendKeys("phone");
+		Thread.sleep(5000);
+		driver.findElement(By.className("input-group-btn")).click();
+		
+		//input-search
+		WebElement searchBox1 = driver.findElement(By.id("input-search"));
+		searchBox1.clear();
+		searchBox1.sendKeys("Mac");
+		Thread.sleep(5000);
+		
+		//by xpath  ---//*[@id="button-search"]
+		driver.findElement(By.xpath("//*[@id=\'button-search\']")).click();
+		Thread.sleep(5000);
+		driver.navigate().back();
+		Thread.sleep(2000);
+		
+		//to select by anchor tag
+		List<WebElement> listAnchor = driver.findElements(By.tagName("a"));
+		System.out.println("list of 'a' tags");
+		/*for(WebElement temp : listAnchor){
+			System.out.println(temp.getText());
+		}*/
+		listAnchor.forEach(temp-> System.out.println(temp.getText());
+		
+		
+		//by cssSelector
+		List<WebElement> listCss = driver.findElements(By.cssSelector("span.price-tax"));
+		System.out.println("List of CSS selectors:");
+		
+		listCss.forEach(action->System.out.println(action.getText()));
+		
+		
+		Thread.sleep(10000);
+		
+		
+		
+		driver.close();
+		
+		
+
+	}
+
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/AssignmentDay3_WebService01_JAXWS2/src/com/jpm/jaxws/consumer/CalculatorConsumer.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.jpm.jaxws.consumer.CalculatorConsumer"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="AssignmentDay3_WebService01_JAXWS2"/>
+</launchConfiguration>

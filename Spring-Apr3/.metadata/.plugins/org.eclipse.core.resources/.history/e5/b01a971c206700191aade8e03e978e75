@@ -1,0 +1,27 @@
+package com.jpm.selenium.util;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+public class ChromeUtil {
+	
+	public static WebDriver getChromeDriver(){
+		WebDriver driver = null;
+		//step 1 :driver class
+		string driverClassKey = "webdriver.chrome.driver";
+		//setp  2: driver path
+		String driverPath=".\\driver\\chromedriver.exe";
+		//step 3: set the system class properties
+		System.setProperty(driverClassKey, driverPath);
+		// step 4: set the chrome options
+		ChromeOptions option = new ChromeOptions();
+		return driver;
+		
+	}
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

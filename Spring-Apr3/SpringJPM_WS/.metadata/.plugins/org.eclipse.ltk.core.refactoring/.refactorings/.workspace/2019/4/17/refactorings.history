@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;SpringBoot03_RestJpa_Jsr&apos; to &apos;SpringBoot03_RestJpa_Jsr_old&apos;" description="Rename resource &apos;SpringBoot03_RestJpa_Jsr&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/SpringBoot03_RestJpa_Jsr" name="SpringBoot03_RestJpa_Jsr_old" stamp="1556007903981" updateReferences="true"/>&#x0A;<refactoring comment="Delete 2 resources" deleteContents="false" description="Delete 2 resources" element1="/SpringBoot03_RestJpa_Jsr_old" element2="/SpringBoot03_RestJpa_Jsr2" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="2" stamp="1556008056149"/>
+</session>

@@ -1,0 +1,21 @@
+package com.jpm.selenium.assignment_day1;
+
+import org.openqa.selenium.WebDriver;
+
+import com.jpm.selenium.util.ChromeUtil;
+
+public class AssignmentDay1 {
+
+	public static void main(String[] args) throws InterruptedException {
+		WebDriver driver = ChromeUtil.getChromeDriver();
+		//open the webpage
+		String url = "http://demo.opencart.com/index.php?route=account/register";
+		driver.get(url);
+
+		//maximize the browser window
+		driver.manage().window().maximize();
+		Thread.sleep(2000);
+		driver.close();
+	}
+
+}

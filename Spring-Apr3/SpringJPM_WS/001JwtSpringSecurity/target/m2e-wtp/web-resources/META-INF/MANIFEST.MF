@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: 001JwtSpringSecurity
+Implementation-Version: 1.0-SNAPSHOT
+Built-By: THE COSMOS
+Implementation-Vendor-Id: com.smita.jwt
+Build-Jdk: 1.8.0_141
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/001JwtSpringSecurity
+Created-By: Maven Integration for Eclipse
+

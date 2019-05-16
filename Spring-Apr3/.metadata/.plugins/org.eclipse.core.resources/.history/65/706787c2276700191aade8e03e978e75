@@ -1,0 +1,10 @@
+package com.jpm.selenium.driver_cmd;
+
+public class WebDriverCommands {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

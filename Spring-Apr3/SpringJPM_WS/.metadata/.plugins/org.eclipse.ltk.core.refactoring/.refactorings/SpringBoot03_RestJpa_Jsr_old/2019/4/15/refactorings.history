@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;SpringBootAssesment_Feroze/src/main/resources&apos;&#x0D;&#x0A;- Original project: &apos;SpringBoot03_RestJpa_Jsr&apos;&#x0D;&#x0A;- Destination element: &apos;SpringBootAssesment_Feroze/src/main/resources&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     application.properties&#x0D;&#x0A;     emp-ddl.sql&#x0D;&#x0A;     emp-dml.sql" description="Copy files" destination="=SpringBootAssesment_Feroze/src\/main\/resources" element1="src/main/resources/application.properties" element2="src/main/resources/emp-ddl.sql" element3="src/main/resources/emp-dml.sql" files="3" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1555063116180" units="0" version="1.0"/>
+</session>

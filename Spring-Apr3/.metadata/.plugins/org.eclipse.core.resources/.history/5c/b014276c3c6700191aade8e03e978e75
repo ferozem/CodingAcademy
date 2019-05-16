@@ -1,0 +1,20 @@
+package com.jpm.selenium.locators;
+
+import org.openqa.selenium.WebDriver;
+
+import com.jpm.selenium.util.ChromeUtil;
+
+public class TestLocators {
+
+	public static void main(String[] args) throws InterruptedException {
+		//load driver
+		WebDriver driver = ChromeUtil.getChromeDriver();
+		String url="http://www.opencart.com";
+		Thread.sleep(5000);
+		driver.get(url);
+		driver.close();
+		
+
+	}
+
+}

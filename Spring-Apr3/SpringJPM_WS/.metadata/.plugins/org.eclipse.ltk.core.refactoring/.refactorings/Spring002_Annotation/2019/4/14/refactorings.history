@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Spring002_Annotation/src/context.xml&apos; to &apos;autowire.xml&apos;" description="Rename resource &apos;context.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/context.xml" name="autowire.xml" stamp="1554286264878" updateReferences="true"/>
+</session>

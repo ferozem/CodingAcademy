@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=Spring001_Basics/src&lt;com.jpm.spring.hello{IGreetings.java[IGreetings" modifiers="513" timestamp="1554275758506"/>
+<typeInfo handle="=Spring001_Basics/src&lt;com.jpm.spring.currency{CurrencyConverter.java[CurrencyConverter" modifiers="513" timestamp="1554276729754"/>
+<typeInfo handle="=Spring001_Basics/src&lt;com.jpm.spring.currency{ExchangeService.java[ExchangeService" modifiers="513" timestamp="1554277873443"/>
+<typeInfo handle="=Assignment001_Spring_DI/src&lt;com.jpm.spring{UserService.java[UserService" modifiers="513" timestamp="1554284353038"/>
+<typeInfo handle="=Spring004_JavaConfig/src&lt;com.jpm.spring.emp{IGreetings.java[IGreetings" modifiers="513" timestamp="1554292509986"/>
+<typeInfo handle="=AssignmentDay1_spring_Autowiring/src&lt;com.jpm.spring.emp{EmployeeDao.java[EmployeeDao" modifiers="513" timestamp="1554294371546"/>
+<typeInfo handle="=Spring006_AOP/src&lt;com.jpm.aop{CustomerService.java[CustomerService" modifiers="513" timestamp="1554364380534"/>
+</typeInfoHistroy>
